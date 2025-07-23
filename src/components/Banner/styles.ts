@@ -11,7 +11,7 @@ export const BannerContainer = styled.div`
 
 export const BannerImage = styled.img`
   width: 100%;
-  height: auto;
+  height: 380px;
   display: block;
   object-fit: cover;
 `;
