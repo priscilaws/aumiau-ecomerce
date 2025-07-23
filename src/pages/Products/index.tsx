@@ -3,10 +3,12 @@ import Banner from "../../components/Banner";
 import bannerImage from "../../assets/images/three-dogs-banner.png";
 import ProductCard from "../../components/Products";
 import ImgProduro from "../../assets/images/petmarket.png";
+import ProductHeader from "../../components/ProductsHeader";
 
 export default function Produtos() {
   return (
     <>
+      <ProductHeader />
       <Banner image={bannerImage} alt="3 cachorros" />
       <div
         style={{
