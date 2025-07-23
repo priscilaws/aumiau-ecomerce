@@ -1,23 +1,18 @@
 import Header from "./components/Header";
 import { GlobalCss } from "./styles";
-import ProductsList from "./components/ProductsList";
-import { createBrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
-
-const routes = createBrowserRouter([
-  {
-    path: "",
-    element: <></>,
-  },
-]);
+import Banner from "./components/Banner";
+import Image from "./assets/images/three-dogs-banner.png";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <GlobalCss />
+      {/* <Banner image={Image} alt="tres cachorros" /> */}
       <div>
-        <Header />
-        <ProductsList title={"Nossos Produtos"} background={"gray"} />
+        {/* <Header /> */}
+        <Outlet />
         <Footer />
       </div>
     </>

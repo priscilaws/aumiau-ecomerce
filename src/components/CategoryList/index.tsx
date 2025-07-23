@@ -1,18 +1,18 @@
-import { Product } from "../Product";
+import { Category } from "../Category";
 import { Container, List } from "./styles";
 import image from "../../assets/images/orange-dog.jpg";
 
 type Props = {
-  title: string;
-  background: "gray" | "black";
+  title?: string;
+  background?: "gray" | "black";
 };
 
-const ProductsList = ({ background, title }: Props) => (
+const CategoryList = ({ background = "gray", title }: Props) => (
   <Container>
     <div className="Container">
       <h2>{title}</h2>
       <List>
-        <Product
+        <Category
           infos={["Novidades", "Promoções"]}
           image={image}
           category="Cães"
@@ -20,7 +20,7 @@ const ProductsList = ({ background, title }: Props) => (
           rating={4.9}
           caption="Deliciosas refeições naturais e nutritivas, especialmente preparadas para o bem-estar do seu cão."
         />
-        <Product
+        <Category
           infos={["Novidades", "Promoções"]}
           image={image}
           category="Felinos"
@@ -28,7 +28,7 @@ const ProductsList = ({ background, title }: Props) => (
           rating={4.9}
           caption="Deliciosas refeições naturais e nutritivas, especialmente preparadas para o bem-estar do seu cão."
         />
-        <Product
+        <Category
           infos={["Promoções"]}
           image={image}
           category="Cães"
@@ -36,7 +36,7 @@ const ProductsList = ({ background, title }: Props) => (
           rating={4.9}
           caption="Deliciosas refeições naturais e nutritivas, especialmente preparadas para o bem-estar do seu cão."
         />
-        <Product
+        <Category
           infos={["Novidades"]}
           image={image}
           category="Cães"
@@ -44,7 +44,7 @@ const ProductsList = ({ background, title }: Props) => (
           rating={4.9}
           caption="Deliciosas refeições naturais e nutritivas, especialmente preparadas para o bem-estar do seu cão."
         />
-        <Product
+        <Category
           infos={["Promoções"]}
           image={image}
           category="Cães"
@@ -52,7 +52,7 @@ const ProductsList = ({ background, title }: Props) => (
           rating={4.9}
           caption="Deliciosas refeições naturais e nutritivas, especialmente preparadas para o bem-estar do seu cão."
         />
-        <Product
+        <Category
           infos={["Novidades", "Promoções"]}
           image={image}
           category="Cães"
@@ -65,4 +65,4 @@ const ProductsList = ({ background, title }: Props) => (
   </Container>
 );
 
-export default ProductsList;
+export default CategoryList;
