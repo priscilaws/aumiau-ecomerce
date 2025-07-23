@@ -23,38 +23,38 @@ export default function Produtos() {
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
         <ProductCard
           image={ImgProduro}
-          title="Outro Produto"
-          description="Outra descrição"
+          title="Titulo do Produto"
+          description="descrição do produto aumiau"
         />
       </div>
     </>

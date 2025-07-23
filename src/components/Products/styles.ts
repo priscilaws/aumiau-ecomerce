@@ -10,7 +10,7 @@ export const CardContainer = styled.div`
   max-width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   transition: transform 0.2s ease-in-out;
 `;
 
@@ -30,7 +30,7 @@ export const ProductDescription = styled.p`
   font-size: 14px;
   color: ${colors.black};
   margin-top: 4px;
-  text-align: center;
+  text-align: left;
 `;
 
 export const Divider = styled.div`
